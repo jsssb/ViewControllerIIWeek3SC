@@ -27,6 +27,12 @@ class ViewController: UIViewController {
     performSegueWithIdentifier("showScene2", sender: self)
   
   }
+  
+  @IBAction func onClickDisplayTableView(sender: AnyObject) {
+    
+    performSegueWithIdentifier("showTableView", sender: self)
+  }
+  
  
 }
 

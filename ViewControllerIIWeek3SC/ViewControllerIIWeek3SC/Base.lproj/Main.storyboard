@@ -8,12 +8,12 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Hd5-b7-ymL">
                     <connections>
                         <segue destination="paG-Rd-CMj" kind="modal" identifier="showScene2" id="hiH-rY-7FE"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ViewControllerIIWeek3SC" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -27,7 +27,8 @@
                                 <rect key="frame" x="70" y="208" width="128" height="30"/>
                                 <state key="normal" title="Display Table View"/>
                                 <connections>
-                                    <segue destination="wCD-qf-Hza" kind="show" id="U6e-dN-bn1"/>
+                                    <action selector="onClickDisplayTableView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YGa-Qx-Hgb"/>
+                                    <segue destination="wCD-qf-Hza" kind="show" identifier="showTableView" id="U6e-dN-bn1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -81,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="1981" y="-85"/>
         </scene>
-        <!--Table View Controller-->
+        <!--TableView-->
         <scene sceneID="guN-X7-NTS">
             <objects>
-                <tableViewController id="wCD-qf-Hza" sceneMemberID="viewController">
+                <tableViewController id="wCD-qf-Hza" userLabel="TableView" customClass="TableView" customModule="ViewControllerIIWeek3SC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="MaB-hg-04D">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -16,6 +16,7 @@
 		DD1E4D021CCAC72100C25671 /* ViewControllerIIWeek3SCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1E4D011CCAC72100C25671 /* ViewControllerIIWeek3SCTests.swift */; };
 		DD1E4D0D1CCAC72200C25671 /* ViewControllerIIWeek3SCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1E4D0C1CCAC72200C25671 /* ViewControllerIIWeek3SCUITests.swift */; };
 		DD1E4D1B1CCAD2B300C25671 /* Scene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1E4D1A1CCAD2B300C25671 /* Scene2.swift */; };
+		DD1E4D1D1CCC285600C25671 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1E4D1C1CCC285600C25671 /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DD1E4D0C1CCAC72200C25671 /* ViewControllerIIWeek3SCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerIIWeek3SCUITests.swift; sourceTree = "<group>"; };
 		DD1E4D0E1CCAC72200C25671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD1E4D1A1CCAD2B300C25671 /* Scene2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene2.swift; sourceTree = "<group>"; };
+		DD1E4D1C1CCC285600C25671 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DD1E4CF81CCAC72100C25671 /* Info.plist */,
 				DD1E4CF01CCAC72100C25671 /* ViewControllerIIWeek3SC.xcdatamodeld */,
 				DD1E4D1A1CCAD2B300C25671 /* Scene2.swift */,
+				DD1E4D1C1CCC285600C25671 /* TableView.swift */,
 			);
 			path = ViewControllerIIWeek3SC;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD1E4CEC1CCAC72100C25671 /* ViewController.swift in Sources */,
+				DD1E4D1D1CCC285600C25671 /* TableView.swift in Sources */,
 				DD1E4CF21CCAC72100C25671 /* ViewControllerIIWeek3SC.xcdatamodeld in Sources */,
 				DD1E4CEA1CCAC72100C25671 /* AppDelegate.swift in Sources */,
 				DD1E4D1B1CCAD2B300C25671 /* Scene2.swift in Sources */,
